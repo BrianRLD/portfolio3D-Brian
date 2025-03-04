@@ -16,9 +16,9 @@ import {
   figma,
   docker,
   meta,
-  starbucks,
-  tesla,
-  shopify,
+  seeketing,
+  popular,
+  vinicola,
   carrent,
   jobit,
   tripguide,
@@ -46,7 +46,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "DevOps Engineer",
     icon: mobile,
   },
   {
@@ -54,7 +54,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Data Engineer",
     icon: creator,
   },
 ];
@@ -117,10 +117,10 @@ const technologies = [
 const experiences = [
   {
     title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    company_name: "Seeketing",
+    icon: seeketing,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "March 2021 - April 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -129,42 +129,29 @@ const experiences = [
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Web Developer Intern",
+    company_name: "Popular Bank",
+    icon: popular,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and optimized T-SQL queries to improve database performance and reduce response times for internal applications.",
+      "Created and maintained APIs using Node.js to integrate internal services and facilitate efficient system communication.",
+      "Automated processes with stored procedures to streamline repetitive tasks and enhance backend efficiency.",
+      "Collaborated with team members to design and implement new features for internal applications and improve user experience.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Backend Developer",
+    company_name: "Vinicola Del Norte",
+    icon: vinicola,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Abril 2024 - Jan 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and maintained backend services using Node.js and T-SQL to optimize database performance.",
+      "Designed and implemented APIs to facilitate seamless communication between internal systems.",
+      "Optimized stored procedures and queries to improve data retrieval efficiency.",
+      "Integrated authentication and security measures to ensure data integrity and user access control.",
     ],
   },
 ];
@@ -172,27 +159,27 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Brian is a skilled developer who always delivers high-quality solutions. His problem-solving mindset is invaluable.",
+    name: "Rafiel Taveras",
+    designation: "Dev",
+    company: "Anncar LLC",
+    image: "https://media.licdn.com/dms/image/v2/D4D03AQEMIZv0b9RFBQ/profile-displayphoto-shrink_800_800/B4DZT3WBeLGkAg-/0/1739316533480?e=1746662400&v=beta&t=FdpXB3argcPE7l3aGAn9UP0_ldREwB6Wiyk1xRjPkGA",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "Great to work with! Brian is efficient, detail-oriented, and always finds the best approach to any challenge.",
+    name: "José Román",
+    designation: "Engineer",
+    company: "Newtech S.R.L",
+    image: "https://media.licdn.com/dms/image/v2/D4E35AQE1qOdjOSRNuQ/profile-framedphoto-shrink_800_800/profile-framedphoto-shrink_800_800/0/1715566089241?e=1741716000&v=beta&t=UWuD9R50s8lmnoa3-bk3CHmt9lHP9OndPwBe5AHq-F8",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Brian’s expertise in backend and databases is top-notch. He’s a reliable and talented developer.",
+    name: "Melvin Núñez",
+    designation: "Mechatronic",
+    company: "Cardinal Health",
+    image: "https://media.licdn.com/dms/image/v2/D4E03AQEoITZVx-I8kQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1718332086102?e=1746662400&v=beta&t=7yjvhxOt0HFC2psWGWCLrQ4iRRZiCi4g3lHzKEUYr5Y",
   },
 ];
 
